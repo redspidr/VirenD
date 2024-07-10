@@ -1,0 +1,203 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 10px;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: ABeeZee, sans-serif}
+
+@font-face {
+  font-family: poppins; 
+  src: url(Poppins/Poppins-Black.ttf);
+}
+.poppins {
+  font-family: poppins Arial, Helvetica, sans-serif serif;
+  margin: 50px;
+  border: 2px solid red;
+}
+
+@font-face {
+  font-family: supperplay-100;
+  src: url(SuperPlay.ttf);
+  font-weight: 100;
+
+}
+
+@font-face {
+  font-family: supperplay-B;
+  src: url(SuperPlay.ttf);
+  font-weight:bold;
+  margin-left: 10px;
+}
+@font-face {
+  font-family: kungFu;
+  src: url(kungFu-font/kungFu.ttf);
+  margin-left: 10px;
+}
+.container {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header img {
+   ;
+}
+
+div,.fancy-bold {
+  font-family: supperplay-B;
+  margin-left: 10px;
+}
+
+.fancy-100{
+  font-family: supperplay-100;
+  
+}
+@font-face {
+  font-family: brainy;
+  src: url(brainyKids.otf);
+  font-weight:bold;
+  
+}
+.brainy {
+  font-family: brainy;
+  margin-left: 10px;
+}
+p {
+  margin-left: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  opacity: .5;
+ 
+ 
+  
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #05050575;
+    overflow: ;
+    width: 100%;
+    height: 100%;
+   
+}
+  
+body {
+   
+    background: url(img/viren-dino.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:right;
+
+  }
+p {
+ 
+  
+  padding-left:8px;
+  padding-right:8px;}
+  
+.banner {
+  text-align: center;
+  border-radius: 10px;
+  padding:100px 10px 100px 10px;
+  background-color: hsla(255, 43%, 51%, 0.3);
+  opacity: .5;
+  
+  
+}
+span {
+  padding-right: 10px;
+} 
+.viren-blue {
+  color: rgb(155, 155, 255);
+  font-family: kungFu;
+  font-weight: bold;
+  font-size: 5rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px darkblue;
+
+}
+.the-amber {
+
+}
+
+.kung-fu {
+  color: blueviolet;
+  font-family: brainy;
+
+
+}
+.master-green {
+
+}
+div .p .img {
+  width: 100px;
+  
+}
+
+.text-xs{
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}	
+.text-sm	{
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.text-base	{
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.text-lg	{
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-xl	{
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-2xl	{
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+.text-3xl	{
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */  
+}
+.text-4xl	{
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+.text-5xl	{
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+.text-6xl	{
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+}
+.text-7xl	{
+  font-size: 4.5rem; /* 72px */
+  line-height: 1;
+}
+.text-8xl	{
+    font-size: 6rem; /* 96px */
+  line-height: 1;
+}
+.text-9xl	{
+  font-size: 8rem; /* 128px */
+  line-height: 1;
+}
